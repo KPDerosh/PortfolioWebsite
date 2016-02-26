@@ -1,0 +1,30 @@
+<div class="plan-container">
+	<div class="plan-name">
+		{{plan.planName}}
+	</div>
+	</br>
+	<div class="plan-price">
+		{{plan.price}}
+	</div>
+	<hr style="width:75%"/>
+	<div class="plan-name">
+		Technical Talk
+	</div>
+	</br>
+	<div class="plan-specs">
+		<table style="width:75%; margin:auto; text-align:left;">
+				<tr>
+					<td>Disk space</td>
+					<td>{{plan.techSpecs.HDDSpace}}</td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td>{{plan.techSpecs.cpu}}</td>
+				<tr>
+					<td>RAM</td>
+					<td>{{plan.techSpecs.ram}}</td>
+				</tr>
+		</table>
+	</div>
+	<hr style="width:75%"/>
+</div>
