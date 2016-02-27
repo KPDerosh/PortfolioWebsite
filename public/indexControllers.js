@@ -1,7 +1,6 @@
-controllers.controller('IndexController', ["$scope", "$window", "$http", "$log", '$location', 'userService', function($scope, $window, $http, $log, $location, userService){
+controllers.controller('IndexController', ["$scope", "$window", "$http", "$log", '$location', function($scope, $window, $http, $log, $location){
 	$scope.changeLocation = function(location){
-		$('#legalLiteratureLinksList').hide();
-		$('#myAccountLinks').hide();
+		$('#knowledgeBaseList').hide();
 		$location.path(location);
 	}
 }]);

@@ -1,88 +1,32 @@
 <header id="navbar" class="navSection">
-    <div id="navDivider">
-        <span style="float:left; margin-right:5px">
-            <div id="facebookLogo">
-                <a href="https://www.facebook.com/DataRain/">
-                    <img src="./assets/Images/social-media/facebook-icon.png" style="width:27px; height:27px;"/>
-                </a>
-            </div>
-            <div id="twitterLogo">
-                <a href="https://www.twitter.com/dataraincloud/">
-                    <img src="./assets/Images/social-media/twitter-icon.png" style="width:27px; height:27px;"/>
-                </a>
-            </div>
-        </span>
-        <div style="float:left;">
-            <ul>
-                <li  style="padding:7px;">
-                    <div>
-                        <span class="glyphicon glyphicon-earphone" ></span>
-                        Phone: 1-(888)-906-0635
+    <ul id="navbarList">
+        <li>
+            <a href="#/">
+               Home    
+            </a>
+        </li>
+        <li>
+            <a href="#/photography">
+                Photography
+            </a>
+        </li>
+        <li>
+            <a href="#/projects">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a>
+                <div ng-click="navbar.toggleKnowledgeBaseList()">
+                    Knowledge Base
+                </div>
+                <div id="knowledgeBaseList" style="display:none; position:absolute; top:55px;">
+                    <div class="knowledge-base-link" ng-click="changeLocation('/knowledgebase/angularjs')">
+                        AngularJS
                     </div>
-                    <div>
-                        <span class="glyphicon glyphicon-envelope"></span>
-                        sales@datarain.xyz
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <ul id="navbarList">
-            <li>
-                <a href="#/">
-                    <div style="display:inline-block">
-                        <span style="padding:5px;font-size:17px;" class="glyphicon glyphicon-home"></span>Home
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#/about-us/">
-                    <div style="display:inline-block">
-                        About Us
-                    </div>
-                </a>
-            </li>
-            <li class="dropdown" ng-click="navbar.toggleLegalLiterature()">
-                <a class="dropdown-toggle" href="">
-                    <div style="display:inline-block">
-                        Legal
-                        <span class="caret"></span>
-                    </div>
-                </a>
-            </li>
-            <li ng-show="loggedIn == false">
-                <a class="dropdown-toggle" href="#/login">
-                    <div style="display:inline-block">
-                        Login
-                    </div>
-                </a>
-            </li>
-            <li ng-show="loggedIn == true">
-                <a class="dropdown-toggle" ng-click="navbar.toggleMyAccountsLinks()">
-                    <div style="display:inline-block; cursor:pointer;">
-                        My Account
-                        <span class="caret"></span>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
+                    <div class="knowledge-base-link" ng-click="changeLocation('/knowledgebase/nodejs')">Node.JS</div>
+                </div>
+            </a>
+        </li>
+    </ul>
 </header>
- <div id="legalLiteratureLinksList" class="legal-literature-links" >
-    <div class="legal-literature-link" ng-click="changeLocation('/terms-of-service');">
-        Terms Of Service
-    </div>
-    <div class="legal-literature-link" ng-click="changeLocation('/acceptable-use-policy')">
-        Acceptable Use Policy
-    </div>
-    <div class="legal-literature-link" ng-click="changeLocation('/privacy-policy')">
-        Privacy Policy
-    </div>
-</div>
- <div id="myAccountLinks" class="myaccount-links" >
-    <div class="myaccount-link" ng-click="changeLocation('/my-account/1');">
-        My Account
-    </div>
-    <div class="myaccount-link" ng-click="navbar.logout()">
-        Logout
-    </div>
-</div>

@@ -1,94 +1,45 @@
 .navSection{
-    position:fixed;
     display:inline-block;
-    width:100%;
     z-index: 10000;
-    display:inline-block;
-    background-color: white;
-    color:black;
-    height:55px;
-    margin:auto;
-    border-bottom:1px solid black;
+    height: 55px;
     font-family: 'workSansReg';
+    border-bottom:1px solid blue;
+    border-right:1px solid blue; 
+    border-bottom-right-radius:10px;
 }
-
-.legal-literature-links{
-    display:none;
-    position:fixed;
-    background-color:white;
+.knowledge-base-link{
+    text-align:left;
     color:black;
-    top:53px;
-    left:447px;
-    padding:10px;
-    border:2px solid green;
-    cursor: pointer;
-    font-family: 'workSansReg';
-    font-size:1.5em;
-    z-index: 100000;
 }
-.legal-literature-link{
-
+.knowledge-base-link:hover{
+    text-align:left;
+    background-color:#212121;
+    color:white;
+    cursor:pointer;
 }
-.legal-literature-link:hover{
-    background-color: lightgrey;
-}
-.myaccount-links{
-    display:none;
-    position:fixed;
-    background-color:white;
-    color:black;
-    top:54px;
-    left:605px;
-    padding:10px;
-    border:2px solid green;
-    cursor: pointer;
-    font-family: 'workSansReg';
-    font-size:1.5em;
-    z-index: 100000;
-}
-.myaccount-link:hover{
-    background-color:lightgreen;
-    color:black;
+ul {
+    list-style-type: none;
 }
 #navbarList{
-    display:inline-block;
-    list-style-type: none;
+    display: inline-block;
     margin: 0px 10px;
     padding: 0;
     overflow: hidden;
-    height:54px;
-
+    height: 54px;
 }
 #navbarList li{
     float: left;
 }
-#navbarList li a div:hover{
-    float: left;
-    color:#81D275;
+#navbarList li a:hover{
+    color:#2196F3;
 }
 #navbarList li a{
     display: inline-block;
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 5px;
     text-decoration: none;
     font-size:1.5em;
-    margin:2px 15px;
-}
-
-/*quick nav*/
-.my-account-quick-nav{
-    position:fixed;
-    top:6px;
-    right:20px;
-    z-index:1000000;
-    display:inline-block;
-    float:right;
-}
-.my-account-qn-dropdown{
-    display:none;
-    background-color:white;
-    padding:5px;
-    border: 2px solid #388E3C;
+    margin:7px 15px;
 }
 
 a{
