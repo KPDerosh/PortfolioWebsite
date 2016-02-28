@@ -1,11 +1,11 @@
 .navSection{
     display:inline-block;
-    z-index: 10000;
-    height: 55px;
     font-family: 'workSansReg';
-    border-bottom:1px solid blue;
-    border-right:1px solid blue; 
-    border-bottom-right-radius:10px;
+    width:100%;
+}
+.logo{
+    margin:0;
+    padding:50px;
 }
 .knowledge-base-link{
     text-align:left;

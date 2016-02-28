@@ -1,6 +1,35 @@
 <!-- home page to kylederosha.xyz !-->
-<section>
-	<h1 style="padding:0px 20px; font-family:'workSansReg">
-		Kyle Derosha
+<link rel="stylesheet" href="./css/views/home.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+<section class="home-section" >
+	<h1 class="home-section-header">
+		<b>General</b>
 	</h1>
+	<h3 style="color:grey">
+		Personal
+	</h3>
+	<p class="home-section-content">
+		I am currently working on my degree in Software Engineering at Michigan Technological University. I work as an intern at a start up software company doing web development and other 
+		internal company development. I am currently very interested in web development both front end and back end. Mainly dealing with and learning the MEAN stack. I find it very interesting
+		that you can make an entire framework that only uses javascript as it's scripting and server side language. I started out dealing with the LAMP stack which I enjoyed but I found out 
+		that javascript if very interesting and has a lot of tricks that you can use to create very useful applications. When you tie that together with a great client side framework such as 
+		AngularJs. You get this incredibly powerful and easy to understand application.
+	</p>
+	<h1 class="home-section-header">
+		<b>Skills</b>
+	</h1>
+	<!-- Different skill categories.!-->
+	<div style="display:table">
+		<div style="display:table-cell; vertical-align: top;" ng-repeat="skillCategory in skillCategories">
+			<ul style="display:inline-block;">
+				<li style="font-size:1.3em">
+					<b>{{skillCategory.header}}</b>
+				</li>
+				<li ng-repeat="skill in skillCategory.skills">
+					{{skill}}
+				</li>
+			</ul>
+		</div>
+	</div>
+	
 </section>
