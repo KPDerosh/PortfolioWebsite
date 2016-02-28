@@ -14,6 +14,9 @@
 		}).when("/knowledgebase", {
 			templateUrl: "components/KnowledgeBase/knowledgebase.html",
 			controller: "KnowledgeBaseController"
+		}).when("/knowledgebase/mongodb", {
+			templateUrl: "components/KnowledgeBase/mongodb.html",
+			controller: "KnowledgeBaseMongodbController"
 		}).when("/knowledgebase/angularjs", {
 			templateUrl: "components/KnowledgeBase/angularjs.html",
 			controller: "KnowledgeBaseAngularjsController"
