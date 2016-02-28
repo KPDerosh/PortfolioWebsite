@@ -3,7 +3,7 @@ controllers.controller('HomeController', ["$scope", "$window", "$http", "$log", 
 	$scope.skillCategories = [
 		{
 			header:"Computer Science",
-			skills:["Java", "C", "C++", "Concurrent Programming", "Linux", "UNIX", "Computer architecture"]
+			skills:["Java", "C", "C++", "Concurrent Programming", "Linux", "UNIX", "Computer architecture", "Algorithms", "Computer Networks", "Software Quality Assurance"]
 		},{
 			header:"Web Development",
 			skills:["NodeJS", "AngularJS", "HTML", "HTML5", "CSS", "PHP", "Express", "Javascript", "Jquery", "Apache Web Server", "AJAX"]
