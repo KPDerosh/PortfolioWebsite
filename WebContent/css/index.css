@@ -1,0 +1,17 @@
+.user{
+	display: inline-block;
+ 	width: 100%;
+  	height: calc(100vh);
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+}
+.me{
+	background-image: url('../images/homephoto.jpg');
+}
+.home-info{
+	color:white;
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+   	font-size:2em;
+}
