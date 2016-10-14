@@ -11,10 +11,9 @@
 		<jsp:include page="views/navbar.jsp"/>
 		
 		<div class="container-fluid user me">
-			<section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 home-info">
-				<h1 style="padding-top:calc(10vh)" class="home-info">Kyle Derosha</h1>
-				<div class="col-lg-1"></div>
-				<article class="col-lg-11">
+			<section class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="position:absolute; bottom:0px; background-color:white; padding:20px; border-radius:5px;">
+				<h1  class="home-info">Kyle Derosha</h1>
+				<article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" >School:</div>
 					<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">Michigan Technological University</div>
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">Age: </div>	

@@ -12,27 +12,17 @@
 	padding:10px 0px;
 	white-space: nowrap;
 	border-bottom:2px solid white;
+	text-decoration: none;
+	cursor:pointer;
 }
 .navtablecell:hover{
 	border-bottom:2px solid #00E874;
 	background-color:00FFFF;
-}
-a:link {
-    text-decoration: none;
+	text-decoration: none;
     color:white
 }
-
-a:visited {
-    text-decoration: none;
-    color:white
-}
-
-a:hover {
-    text-decoration: none;
-    color:white;
-}
-
-a:active {
-    text-decoration: none;
-    color:white;
+@media (max-width: 992px) {
+  .filler {
+    display: none;
+  }
 }
