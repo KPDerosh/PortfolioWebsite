@@ -19,10 +19,10 @@
 <body>
 	<nav class="navbar-custom">
 		<div class="container-fluid navbar-link-container">
-			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter')"> Home </div>
-			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/Portfolio')"> Portfolio </div>
-			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/AboutMe')"> About Me </div>
-			<div class="col-lg-9 col-md-3 filler" style="padding-top:60px;border-bottom:2px solid white;"></div>
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter')"> <span>Home</span> </div>
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/Portfolio')"> <span>Portfolio</span> </div>
+			<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/AboutMe')"> <span>About Me</span> </div>
+			<div class="col-lg-9 col-md-3 filler"></div>
 		</div>
 	</nav>
 </body>

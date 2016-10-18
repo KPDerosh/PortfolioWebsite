@@ -1,25 +1,23 @@
 .navbar-custom{
-	background:#007CE8;
+	background:#333;
+	color:#2ecc71;
 }
 .navbar-link-container{
 
 }
 .navtablecell{
 	display:table-cell;
-	color:white;
 	font-size:2em;
 	text-align:center;
 	padding:10px 0px;
 	white-space: nowrap;
-	border-bottom:2px solid white;
 	text-decoration: none;
 	cursor:pointer;
 }
-.navtablecell:hover{
-	border-bottom:2px solid #00E874;
+.navtablecell span:hover{
+	border-bottom:2px solid white;
 	background-color:00FFFF;
 	text-decoration: none;
-    color:white
 }
 @media (max-width: 992px) {
   .filler {
