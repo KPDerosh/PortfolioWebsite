@@ -10,13 +10,16 @@
 	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
 </head>
 <nav class="navbar-custom">
 	<div class="container-fluid navbar-link-container">
 		<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter')"> <span>Home</span> </div>
 		<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/Portfolio')"> <span>Portfolio</span> </div>
 		<div class="col-lg-1 col-md-3 col-sm-4 col-xs-12 navtablecell" onclick="redirect('/Nighthunter/AboutMe')"> <span>About Me</span> </div>
-		<div class="col-lg-9 col-md-3 filler"></div>
+		<div class="col-lg-9 col-md-3 filler">
+			<a href="https://www.facebook.com/kyle.derosha">
+				<img src="/Nighthunter/images/facebook.png" style="float:right; padding:5px;" width="60" height="60"/>
+			</a>
+		</div>
 	</div>
 </nav>
