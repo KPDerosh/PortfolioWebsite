@@ -1,10 +1,10 @@
-@media (max-width: 775px) {
+@media (max-width: 766px) {
 	.home-image{
 		width:100%;
 		height:calc(100vh - 181px);
 	}
 }
-@media (min-width: 776px) {
+@media (min-width: 767px) {
 	.home-image{
 		width:100%;
 		height:calc(100vh - 61px);
