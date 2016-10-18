@@ -9,9 +9,9 @@
 	</head>
 	<body>
 		<jsp:include page="views/navbar.jsp"/>
-		
-		<div class="container-fluid user me">
-			<section class="col-lg-5 col-md-5 col-sm-10 col-xs-10" style="position:absolute; bottom:0px; background-color:white; padding:20px; border-radius:5px;">
+		<img src="/Nighthunter/images/homephoto.jpg" style="width:100%;"/>
+		<div class="container-fluid">
+			<section class="col-lg-5 col-md-5 col-sm-10 col-xs-10" style="padding:20px; border-radius:5px;">
 				<h1  class="home-info">Kyle Derosha</h1>
 				<article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" >School:</div>

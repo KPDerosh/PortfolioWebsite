@@ -1,0 +1,29 @@
+.row-container{
+	width:100%;
+}
+@media (min-width: 992px) {
+	.info-container{
+		background-color:#333;
+		padding:calc(3vh) 0px;
+		width:50%
+	}
+}
+@media (min-width: 0px) {
+	.info-container{
+		background-color:#333;
+		padding:calc(3vh) 0px;
+		width:100%
+	}
+}
+.school-section{
+	color: #2ECC71;
+}
+.project-section{
+	color: #fecd0b;
+}
+.work-section{
+	color:#D92626;
+}
+.half-height{
+	height:calc(50vh);
+}
