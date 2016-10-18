@@ -1,5 +1,7 @@
 .row-container{
 	width:100%;
+	border-bottom:1px solid #2ECC71;
+	display:inline-block;
 }
 @media (min-width: 992px) {
 	.info-container{
@@ -16,13 +18,13 @@
 	}
 }
 .school-section{
-	color: #2ECC71;
+	color: #5389E3;
 }
 .project-section{
-	color: #fecd0b;
+	color: #E3CB3C;
 }
 .work-section{
-	color:#D92626;
+	color:#D95E82;
 }
 .half-height{
 	height:calc(50vh);
