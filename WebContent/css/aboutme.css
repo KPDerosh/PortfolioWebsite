@@ -1,0 +1,21 @@
+.page-header{
+	text-align:center;
+	width:100%;
+	font-size:5em;
+	margin: 30px 0px;
+	border-bottom:5px solid #333;
+}
+.family-section{
+	font-size:16pt;
+	background-color:#f1f1f1;
+	width:100%;
+}
+.paragraph-starting-word{
+	font-size:22pt;
+	color:#2ecc71;
+}
+.hobbies-section{
+	background-color:#333;
+	color:white;
+	padding:20px;
+}

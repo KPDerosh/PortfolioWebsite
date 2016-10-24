@@ -9,6 +9,8 @@
 	</head>
 	<body>
 		<jsp:include page="views/navbar.jsp"/>
-		<img src="/Nighthunter/images/homephoto.jpg" class="home-image"/>
+		<div class="home-image-container">
+			<img src="/Nighthunter/images/homephoto.jpg" class="home-image"/>
+		</div>
 	</body>
 </html>
