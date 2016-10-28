@@ -44,28 +44,44 @@
 						</center>
 					</figure>
 				</section>
-				<div class="row hobbies-section">
+				<div class="row">
 					<section id="hobbies">
 						<h1>
 							Hobbies
 						</h1>
 						<div id="programming">
 							<h3>Programming</h3>
+							<div>
+								I enjoy programming a lot. I think of it as a way to be creative while still being logical.
+								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
+								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
+								code is a lot harder than it looks and I can appreciate it.
+							</div>
 						</div>
 						<div id="videoGames">
 							<h3>Video Games</h3>
+							<div>
+							</div>
 						</div>
 						<div id="guitar">
 							<h3>Guitar</h3>
+							<div>
+							</div>
 						</div>
 						<div id="iceandrollerskating">
 							<h3>Ice/Roller skating</h3>
+							<div>
+							</div>
 						</div>
 						<div id="bikes">
 							<h3>Bike Trails</h3>
+							<div>
+							</div>
 						</div>
 						<div id="pingPong">
 							<h3>Ping pong</h3>
+							<div>
+							</div>
 						</div>
 					</section>
 				</div>
