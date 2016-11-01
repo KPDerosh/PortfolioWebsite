@@ -59,42 +59,32 @@
 						</div>
 						<div id="videoGames">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Video Games,</span> I enjoy programming a lot. I think of it as a way to be creative while still being logical.
-								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
-								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
-								code is a lot harder than it looks and I can appreciate it.
+								<span class="paragraph-starting-word">Video Games,</span>  they are a way for me to relax at the end of the day and hang out with a couple of friends and play
+								some games. I play League of Legends and WoW. I have participated in a couple of tournaments at MTU over the last couple years. I have won the MTU tournament 
+								twice over the last couple of years playing. I also really enjoy card games like euchre.
 							</p>
 						</div>
 						<div id="guitar">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Guitar,</span> I enjoy programming a lot. I think of it as a way to be creative while still being logical.
-								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
-								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
-								code is a lot harder than it looks and I can appreciate it.
+								<span class="paragraph-starting-word">Guitar,</span> I started playing guitar about 3 years ago. I mainly like playing songs from BFMV, ADTR, Avenged Sevenfold. 
+								Mostly band with heavy guitar but I also enjoy playing songs like Sweet Child O'mine and some older rock songs. 
 							</p>
 						</div>
 						<div id="iceandrollerskating">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Ice Skating/Roller blading,</span> I enjoy programming a lot. I think of it as a way to be creative while still being logical.
-								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
-								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
-								code is a lot harder than it looks and I can appreciate it.
+								<span class="paragraph-starting-word">Ice Skating/Roller blading,</span> I used to roller blade every Friday with a couple of friends in grade school and it was 
+								so much fun. The when I came up to Michigan Tech which is known for hockey I picked up Ice skating pretty easily. It's not the same as roller blading but there are 
+								enough similiarties to pick it up quickly.
 							</p>
 						</div>
 						<div id="bikes">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Bike trails,</span> I enjoy programming a lot. I think of it as a way to be creative while still being logical.
-								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
-								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
-								code is a lot harder than it looks and I can appreciate it.
+								<span class="paragraph-starting-word">Bike trails,</span> growing up I raced dirt bikes at a lot of local tracks. 
 							</p>
 						</div>
 						<div id="pingPong">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Ping Pong,</span> I enjoy programming a lot. I think of it as a way to be creative while still being logical.
-								I've always found puzzles and problem solving fun. Programming is the perfect way to make a career out of it.
-								There is also a lot of design and creative aspects to programming which I enjoy. Making readable, efficient, and functioning
-								code is a lot harder than it looks and I can appreciate it.
+								<span class="paragraph-starting-word">Ping Pong,</span> 
 							</p>
 						</div>
 					</section>
