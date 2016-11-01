@@ -79,12 +79,15 @@
 						</div>
 						<div id="bikes">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Bike trails,</span> growing up I raced dirt bikes at a lot of local tracks. 
+								<span class="paragraph-starting-word">Bike trails,</span> growing up I raced dirt bikes at a lot of local tracks. I also used to ride my bike around the neighborhood
+								jumping off dirt ramps and generally hurting myself. It was really fun and I used to play all the MX vs ATV games. Then my dad broke his leg and my mom didn't want us
+								to ride anymore so I kind of kept the hobby alive by continuing to ride my bike.
 							</p>
 						</div>
 						<div id="pingPong">
 							<p class="videogame-blurb">
-								<span class="paragraph-starting-word">Ping Pong,</span> 
+								<span class="paragraph-starting-word">Ping Pong,</span> is a big thing in my family and a lot of my friends grew up playing it. It actually get's pretty competitive.
+								
 							</p>
 						</div>
 					</section>
