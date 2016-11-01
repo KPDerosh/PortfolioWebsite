@@ -16,9 +16,9 @@
 				<article id="schoolInfoArticle" class="col-lg-10">
 					<h1>School</h1>
 					<p>
-						When I was in high school I really wanted to do something computer based. I really enjoyed tinkering around with different computers in the computer labs. 
-						I took a couple of classes that were just intro classes to things like html, C++, and Java. I really enjoyed it so I continued to pursue it. Going into computers
-						influenced my choice of what college I wanted to attend. I looked around for high job placement and small colleges. Lone and behold Michigan Tech fits that resume perfectly.
+						Beginning in high school I was really interested in computers. Actually more interested in playing roller coaster tycoon on a computer, but never the less it spark an interest to figure out 
+						more about how computers work. I took a couple of classes that were just intro classes. They explained a lot of simple concepts in html, C++, and Java. I really enjoyed it so I continued to pursue it going into my college career. 
+						My interest in computer science definitely influenced my choice of what college I wanted to attend. I looked around for a college that had a high job placement and was relatively small in size. Michigan Tech fit that resume perfectly.
 					</p>
 					<h3>Hobbies</h3>
 					<ul>
@@ -48,19 +48,19 @@
 				<article id="projectsInfoArticle" class="col-lg-10 ">
 					<h1>Projects</h1>
 					<p>
-						I have taken on many big projects while at school both to take up my free time and as well as at work.
+						I have taken on many big projects while at school both to take up my free time as well as participating in my job.
 						I like learning about new technology as well as becoming proficient in the things I already know. I 
-						really enjoy backend programming and dealing with setting up the structure and databases for large scale projects.
-						At my work I take on big projects dealing with a massive amount of data and structuring and designing it in a way that
-						makes it easier for our customers to view the data.
+						enjoy backend programming and dealing with setting up the structure and databases for large scale projects.
+						At my work I take on big projects dealing with a massive amount of data. It often includes structuring, designing, and coding it in a way that
+						makes it easier for our customers to view.
 					</p>
 					<h1>Recent Projects</h1>
 					<ul>
-							<li>Control-Tec Selenium Testing</li>
-							<li>Control-tec Web Design</li>
-							<li>DataRain Cloud solution --></li>
-							<li>UpvoteBacon</li>
-						</ul>
+						<li>Control-Tec Selenium Testing</li>
+						<li>Control-tec Web Design</li>
+						<li>DataRain Cloud solution --></li>
+						<li>UpvoteBacon</li>
+					</ul>
 				</article>
 				<span class="col-lg-1"></span>
 			</div>
